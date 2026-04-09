@@ -81,8 +81,9 @@ namespace CRUDMahasiswaADO
                         reader["KodeProdi"].ToString()
                         );
 
-                    reader.Close();
+                
                 }
+                reader.Close();
             }
             catch (Exception ex)
             {
