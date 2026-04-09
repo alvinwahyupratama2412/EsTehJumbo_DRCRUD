@@ -58,12 +58,12 @@ namespace CRUDMahasiswaADO
                 dataGridView1.Rows.Clear();
                 dataGridView1.Columns.Clear();
 
-                dataGridView1.Rows.Add("NIM", "NIM");
-                dataGridView1.Rows.Add("Nama", "Nama");
-                dataGridView1.Rows.Add("JenisKelamin", "Jenis Kelamnin");
-                dataGridView1.Rows.Add("TanggalLahir", "Tanggal Lahir");
-                dataGridView1.Rows.Add("Alamat", "Alamat");
-                dataGridView1.Rows.Add("KodeProdi", "Kode Prodi");
+                dataGridView1.Columns.Add("NIM", "NIM");
+                dataGridView1.Columns.Add("Nama", "Nama");
+                dataGridView1.Columns.Add("JenisKelamin", "Jenis Kelamnin");
+                dataGridView1.Columns.Add("TanggalLahir", "Tanggal Lahir");
+                dataGridView1.Columns.Add("Alamat", "Alamat");
+                dataGridView1.Columns.Add("KodeProdi", "Kode Prodi");
 
                 string query = "SELECT * FROM Mahasiswa";
 
