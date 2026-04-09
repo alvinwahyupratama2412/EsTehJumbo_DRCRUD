@@ -43,6 +43,9 @@
             this.btnConnect = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,6 +93,9 @@
             // cmbJK
             // 
             this.cmbJK.FormattingEnabled = true;
+            this.cmbJK.Items.AddRange(new object[] {
+            "L",
+            "P"});
             this.cmbJK.Location = new System.Drawing.Point(249, 144);
             this.cmbJK.Name = "cmbJK";
             this.cmbJK.Size = new System.Drawing.Size(214, 33);
@@ -172,11 +178,41 @@
             this.dataGridView1.Size = new System.Drawing.Size(1046, 329);
             this.dataGridView1.TabIndex = 14;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(824, 163);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(207, 42);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Menambah Data";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(824, 224);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(207, 42);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "Mengubah Data";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(824, 284);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(207, 42);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Menghapus Data";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1168, 778);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnConnect);
@@ -218,6 +254,9 @@
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
